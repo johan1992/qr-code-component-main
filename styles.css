@@ -1,0 +1,85 @@
+:root {
+    /* Colores */
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: var(--light-gray);
+}
+
+.body-QR {
+    width: 375px;
+ 
+    background-color: var(--white);
+    border-radius: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 15px 15px 15px;
+    background-image: url(./images/image-qr-code.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 20px 20px;
+    width: 92%;
+    height: 300px;
+}
+
+.body {
+
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.info-title {
+    font-weight: 700;
+    color: var(--dark-blue);
+    line-height: 1.6rem;
+}
+
+.info-parrafo {
+    margin: 20px 0;
+    color: var(--grayish-blue);
+    line-height: 1.6rem;
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .container {
+        background: var(--light-gray);
+        background-position: top;
+        background-size: contain;
+    }
+
+    .body-QR {
+        width: 400px;
+        border-radius: 20px;
+    }
+
+    .body {
+        padding: 15px 30px;
+        text-align: center;
+    }
+}
