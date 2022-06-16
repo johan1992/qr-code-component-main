@@ -1,5 +1,7 @@
 # Frontend Mentor - QR code component
 
-Link: 
+# Link
+ https://desafio-frontend-mentor-qr-component.vercel.app/
 
-Twitter: 
+# Author
+Twitter: https://twitter.com/yosoyjo
